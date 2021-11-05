@@ -1,0 +1,25 @@
+body{
+    font-style:'roboto';
+}
+.part1 {
+    background-image: url('images/image2.png');
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+.part1 img{
+    margin: px;
+}
+.part1 > p {
+    color: #F19201;
+    display: inline-flex;
+    flex-direction: column;
+    top: 1px;
+    text-decoration: bolder;
+    font-family: 'roboto';
+    font-weight: bolder;
+    position: relative;
+    
+
+
+}
