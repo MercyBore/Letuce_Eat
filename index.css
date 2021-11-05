@@ -70,7 +70,7 @@ nav {
 }
 .part2{
     height: 500px;
-    background-color: rgba(231, 229, 218, 0.788);
+    background-color: rgba(216, 216, 214, 0.788);
     text-align: center;
 }
 .part2 h2{
@@ -82,18 +82,36 @@ nav {
     width: 75%;
 }
 .part2 .containers {
-    display: inline;
+    display: flex;
 }
 
 .part2 .containers .one{
     background-color: white;
     text-align: center;
-    padding: 10px; 
+    padding: 10px; padding-top: 3%;
     width: 25%;
-    margin: 10%;
+    margin: 3%;
     height: 200px;
 }
 .part2 .containers .one .circle{
+    background: #F19201;
+    display: inline-block;
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+    border-radius: 100%; 
+    padding: 1%;
+  
+}
+.part2 .containers .two{
+    background-color: white;
+    text-align: center;
+    padding: 10px; padding-top: 3%;
+    width: 25%;
+    margin: 3%;
+    height: 200px;
+}
+.part2 .containers .two .circle{
     background: #F19201;
     display: inline-block;
     font-size: larger;
@@ -103,15 +121,15 @@ nav {
     width: 50px;
     height: 50px;
 }
-.part2 .containers .two{
+.part2 .containers .three{
     background-color: white;
     text-align: center;
-    padding: 10px; 
+    padding: 7px; padding-top: 3%;
     width: 25%;
-    margin: 10%;
+    margin: 3%;
     height: 200px;
 }
-.part2 .containers .two .circle{
+.part2 .containers .three .circle{
     background: #F19201;
     display: inline-block;
     font-size: larger;
