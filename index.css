@@ -11,15 +11,14 @@ body{
 .part1 img{
     margin: 1px;
 }
-.part1 > p {
+.part1 p {
     color: #F19201;
     display: inline-flex;
     flex-direction: column;
     text-decoration: bolder;
     font-weight: bolder;
     position: relative;
-    padding: 0;
-    padding-top: 10px;
+    margin:0%; margin-top: 1%;
 }
 .links a {
     margin: 2px;
@@ -57,10 +56,68 @@ nav {
     margin: 10px;
     padding: 25px;
 }
-.links > .order > p {
+.part1 .order {
     color: white;
+    background-color: #F19201;
+    border: solid 10px #F19201; 
     text-align: center;
-    height: 10px;
+    height: 20px;
     width: 100px;
-    margin: 50px; margin-top: 1%;
+    margin: 30px; margin-top: 1%;
+    padding: 10px; 
+    
+
+}
+.part2{
+    height: 500px;
+    background-color: rgba(231, 229, 218, 0.788);
+    text-align: center;
+}
+.part2 h2{
+    color: #F19201;
+}
+.part2 p{
+    font-style: italic;
+    margin: 10%; margin-top: 3%;
+    width: 75%;
+}
+.part2 .containers {
+    display: inline;
+}
+
+.part2 .containers .one{
+    background-color: white;
+    text-align: center;
+    padding: 10px; 
+    width: 25%;
+    margin: 10%;
+    height: 200px;
+}
+.part2 .containers .one .circle{
+    background: #F19201;
+    display: inline-block;
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+    border-radius: 50%; border-bottom: 5%;
+    width: 50px;
+    height: 50px;
+}
+.part2 .containers .two{
+    background-color: white;
+    text-align: center;
+    padding: 10px; 
+    width: 25%;
+    margin: 10%;
+    height: 200px;
+}
+.part2 .containers .two .circle{
+    background: #F19201;
+    display: inline-block;
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+    border-radius: 50%; border-bottom: 5%;
+    width: 50px;
+    height: 50px;
 }
