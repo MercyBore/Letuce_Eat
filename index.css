@@ -1,5 +1,6 @@
 body{
-    font-style:'roboto';
+    font-type :'Roboto';
+    margin: 4px;
 }
 .part1 {
     background-image: url('images/image2.png');
@@ -8,18 +9,54 @@ body{
     background-size: cover;
 }
 .part1 img{
-    margin: px;
+    margin: 1px;
 }
 .part1 > p {
     color: #F19201;
     display: inline-flex;
     flex-direction: column;
-    top: 1px;
     text-decoration: bolder;
     font-family: 'roboto';
     font-weight: bolder;
     position: relative;
-    
-
-
+    padding: 0;
+    padding-top: 10px;
+}
+.links a {
+    margin: 2px;
+    color: white; padding-right: 25px;
+    text-decoration: none; 
+    flex-direction: column;
+    height: 20px;
+    font-size: 15px;
+}
+.links{
+    float: right;
+    padding: 10px; 
+    margin-top: 2px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+    text-decoration: solid ;
+    font-family: 'roboto';
+    font-weight: bolder;
+}
+.links > nav > #home{
+    color: #F19201 ;
+}
+.links > nav > #moringa {
+    background-color: #F19201 ;
+    color: white;
+    text-align: center;
+}
+nav {
+    display: block;
+    padding: 9px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.part1 h1{
+    color: white;
+    margin: 10px;
+    padding: 25px;
+    font-style: 'roboto';
 }
