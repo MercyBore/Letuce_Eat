@@ -70,7 +70,6 @@ nav {
 }
 .part2{
     height: 500px;
-    background-color: rgba(216, 216, 214, 0.788);
     text-align: center;
 }
 .part2 h2{
@@ -141,41 +140,57 @@ nav {
     height: 50px;
 }
 .part3 {
-    height: 200px;
+    height: 500px;
+    width: 100%;
+    justify-content: space-evenly;
     text-align: center;
-    content: "";
-    display: flex;
+    display:flex;
     clear: both;
 }
-.part3 .column1 img{
+.part3 .column1 img {
     float: left;
+    height: 500px;
     width: 100%;
     object-fit: cover;
-    padding: 10px;
-    height: 195%; 
+    padding: 0px;
 }
 .part3 .column2{
     float: right;
+    height: 500px;
     width: 100%;
-    padding: 10px; 
-    height: 190%; 
-    object-fit: cover;
+    padding: 0; 
     text-align: center;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     background-color: black;
 }
 .part3 .column2 h1{
     align-items: center;
-    font-size: 50px;
+    font-size: 40px;
+    display: inline-block;
+    position: relative;
     
 }
-.part3 > .column2 > h1:after {
-    content: "";
-    text-decoration: underline;
-  width: 50%;
-  background-color: rgb(255, 255, 255);
-  position: absolute;
-  bottom: -.5em;
-  left: 50%;
-  transform: translate(-50%);
+.part3 .column2 p{ 
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    font-size: large;
+    padding: 10px;
+    padding-left: 10%; padding-right: 10%; padding-top: 5%;
+}
+.part4 {
+    border: 7px; 
+    background-color: rgb(255, 255, 255);
+    padding: 1px; 
+    height: 200px;
+    text-align: center;
+}
+.part4 h2{
+    color: #F19201;
+}
+.part4 p {
+    font-style: italic;
+    margin: 2%; 
+    width: 63%;
+    padding-left: 17%;
 }
