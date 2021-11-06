@@ -1,3 +1,4 @@
+@import url('Downloads/Roboto');
 body{
     font-family : 'Roboto' sans-serif;
     margin: 20px;
@@ -165,6 +166,8 @@ nav {
 }
 .part3 .column2 h1{
     align-items: center;
+    border-bottom: 3px solid #ffffff;
+    padding-bottom: 5px;
     font-size: 40px;
     display: inline-block;
     position: relative;
@@ -179,10 +182,9 @@ nav {
     padding-left: 10%; padding-right: 10%; padding-top: 5%;
 }
 .part4 {
-    border: 7px; 
-    background-color: rgb(255, 255, 255);
+    border: 7px solid black; 
     padding: 1px; 
-    height: 200px;
+    height: 1000px;
     text-align: center;
 }
 .part4 h2{
@@ -193,4 +195,44 @@ nav {
     margin: 2%; 
     width: 63%;
     padding-left: 17%;
+}
+.part4 .menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+.part4 .menu .four{
+    background-color: white;
+    padding: 20px;
+    width: 200px;
+    margin: 30px;
+}
+.part4 .menu .four h5{
+    color: #F19201;
+}
+.part4 .menu .five{
+    background-color: white;
+    padding: 20px;
+    width: 200px;
+    margin: 30px;
+}
+.part4 .menu .five h5{
+    color: #F19201;
+}
+.part4 .menu .six{
+    background-color: white;
+    padding: 20px;
+    width: 200px;
+    margin: 30px;
+}
+.part4 .menu .six h5{
+    color: #F19201;
+}
+.part4 .menu .seven{
+    background-color: white;
+    padding: 20px;
+    width: 200px;
+    margin: 30px;
+}
+.part4 .menu .seven h5{
+    color: #F19201;
 }
