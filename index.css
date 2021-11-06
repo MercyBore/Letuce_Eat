@@ -44,11 +44,12 @@ body{
 .links > nav > #moringa {
     background-color: #F19201;
     color: white;
-    text-align: center;
+    text-align: center; 
+    padding: 2px;
 }
 nav {
     display: block;
-    padding: 9px;
+    padding: 10px;
     background-color: rgba(0, 0, 0, 0.5);
 }
 .part1 h1{
@@ -235,4 +236,13 @@ nav {
 }
 .part4 .menu .seven h5{
     color: #F19201;
+}
+.part5 {
+    background-image: url('images/image8.png');
+    height: 200px;
+    width: 100px;
+    padding: 5px;
+    background-position: center;
+    background-size: auto;
+   
 }
