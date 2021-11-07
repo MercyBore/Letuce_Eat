@@ -19,6 +19,6 @@ https://github.com/MercyBore/Letuce_Eat.git
 1. CSS
 1. Git
 ### Live Site
-View [Live]  https://mercybore.github.io/The_Burger_Palace/
+View [Live]  https://mercybore.github.io/Letuce_Eat/
 ### Licence
 This project is under the  [MIT](license) license
