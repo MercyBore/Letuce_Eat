@@ -21,4 +21,4 @@ https://github.com/MercyBore/Letuce_Eat.git
 ### Live Site
 View [Live]  https://mercybore.github.io/Letuce_Eat/
 ### Licence
-This project is under the  [MIT](license) license
+This project is under the  [MIT](license) license LICENSE.txt

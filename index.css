@@ -48,9 +48,11 @@ body{
     padding: 2px;
 }
 nav {
-    display: block;
-    padding: 10px;
+    display: block; 
     background-color: rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    padding: 10px 0;
+    margin-right: 0%;
 }
 .part1 h1{
     color: white;
@@ -95,15 +97,18 @@ nav {
     margin: 3%;
     height: 200px;
 }
-.part2 .containers .one .circle{
+.part2 .containers .circle{
     background: #F19201;
     display: inline-block;
     font-size: larger;
     font-weight: bolder;
     color: white;
-    border-radius: 50%; border-bottom: 5%;
+    border-radius: 50%; 
     width: 50px;
     height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
 }
 .part2 .containers .two{
     background-color: white;
@@ -113,16 +118,7 @@ nav {
     margin: 3%;
     height: 200px;
 }
-.part2 .containers .two .circle{
-    background: #F19201;
-    display: inline-block;
-    font-size: larger;
-    font-weight: bolder;
-    color: white;
-    border-radius: 50%; border-bottom: 5%;
-    width: 50px;
-    height: 50px;
-}
+
 .part2 .containers .three{
     background-color: white;
     text-align: center;
@@ -131,16 +127,7 @@ nav {
     margin: 3%;
     height: 200px;
 }
-.part2 .containers .three .circle{
-    background: #F19201;
-    display: inline-block;
-    font-size: larger;
-    font-weight: bolder;
-    color: white;
-    border-radius: 50%; border-bottom: 5%;
-    width: 50px;
-    height: 50px;
-}
+
 .part3 {
     height: 500px;
     width: 100%;
@@ -183,63 +170,106 @@ nav {
     padding-left: 10%; padding-right: 10%; padding-top: 5%;
 }
 .part4 {
-    border: 7px solid; 
+    width: 100%;
     padding: 1px; 
-    height: 1000px;
-    text-align: center;
+    height: 800px;
+    text-align: center;   
+}
+.part4 .p{
+    font-size: 10px;
+    width: 50%;
+    padding-left: 30%;
+    margin: 0px;
+    padding-bottom: 1%;
 }
 .part4 h2{
     color: #F19201;
 }
 .part4 p {
     font-style: italic;
-    margin: 2%; 
-    width: 63%;
-    padding-left: 17%;
+    font-size: 15px;
+    
+}
+.part4 .menu  h5{
+    color: #F19201;
+    font-size: 20px;
+}
+.part4 .menu  h4{
+    color: black;
+    font-size: 20px;
+}
+.part4 img{
+    float: left;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    padding: 10px;
 }
 .part4 .menu {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 40px;
+    height: 200px;
+    width: 200px;
+    line-height: 15px;
+    font-size: 30px;
+}
+.part4 .menu .food{
+    float:right;
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    text-align: left;
+    height: 200px;
+    width: 200px;
 }
 .part4 .menu .four{
     background-color: white;
-    padding: 20px;
-    width: 200px;
-    margin: 30px;
+    display: flex;
+    float: right;
+    flex-direction: row;
+    padding: 1px;
+    height: 250px;
+    width: 350px;
+    margin: 10px;
 }
-.part4 .menu .four h5{
-    color: #F19201;
-}
+
 .part4 .menu .five{
     background-color: white;
-    padding: 20px;
-    width: 200px;
-    margin: 30px;
+    display: flex;
+    float: right;
+    flex-direction: row;
+    padding: 1px;
+    height: 250px;
+    width: 350px;
+    margin: 10px;
 }
-.part4 .menu .five h5{
-    color: #F19201;
-}
+
 .part4 .menu .six{
     background-color: white;
-    padding: 20px;
-    width: 200px;
-    margin: 30px;
+    display: flex;
+    float: right;
+    flex-direction: row;
+    padding: 1px;
+    height: 250px;
+    width: 350px;
+    margin: 10px;
 }
-.part4 .menu .six h5{
-    color: #F19201;
-}
+
 .part4 .menu .seven{
     background-color: white;
-    padding: 20px;
-    width: 200px;
-    margin: 30px;
+    display: flex;
+    float: right;
+    flex-direction: row;
+    padding: 1px;
+    height: 250px;
+    width: 350px;
+    margin: 10px;
 }
-.part4 .menu .seven h5{
-    color: #F19201;
-}
+
 .part5 {
     background-image: url('images/image8.png');
-    height: 100px;
+    height: 350px;
     padding: 5px;
     background-position: center;
     background-size: contain;
