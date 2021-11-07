@@ -183,7 +183,7 @@ nav {
     padding-left: 10%; padding-right: 10%; padding-top: 5%;
 }
 .part4 {
-    border: 7px solid black; 
+    border: 7px solid; 
     padding: 1px; 
     height: 1000px;
     text-align: center;
@@ -239,10 +239,9 @@ nav {
 }
 .part5 {
     background-image: url('images/image8.png');
-    height: 200px;
-    width: 100px;
+    height: 100px;
     padding: 5px;
     background-position: center;
-    background-size: auto;
+    background-size: contain;
    
 }
