@@ -159,25 +159,22 @@ nav {
 }
 .part4 {
     width: 100%;
-    padding: 1px; 
+    padding: 0px; 
     height: 800px;
     text-align: center;   
 }
 .part4 .p{
+    text-align: center;
     font-size: 10px;
     width: 50%;
     padding-left: 30%;
-    margin: 0px;
-    padding-bottom: 1%;
+    padding-bottom: 1%;font-style: italic;
+    font-size: 15px;
 }
 .part4 h2{
     color: #F19201;
 }
-.part4 p {
-    font-style: italic;
-    font-size: 15px;
-    
-}
+
 .part4 .menu  h5{
     color: #F19201;
     font-size: 20px;
@@ -196,9 +193,9 @@ nav {
 .part4 .menu {
     display: flex;
     flex-direction: row;
-    margin: 40px;
     height: 200px;
     width: 200px;
+    padding-left: 10%;
     line-height: 15px;
     font-size: 30px;
 }
