@@ -94,7 +94,7 @@ nav {
     display: flex;
 }
 
-.part2 .containers .one{
+.one, .two, .three{
     background-color: white;
     text-align: center;
     padding: 10px; padding-top: 3%;
@@ -114,23 +114,6 @@ nav {
     line-height: 50px;
     font-size: 20px;
     text-align: center;
-}
-.part2 .containers .two{
-    background-color: white;
-    text-align: center;
-    padding: 10px; padding-top: 3%;
-    width: 25%;
-    margin: 3%;
-    height: 200px;
-}
-
-.part2 .containers .three{
-    background-color: white;
-    text-align: center;
-    padding: 7px; padding-top: 3%;
-    width: 25%;
-    margin: 3%;
-    height: 200px;
 }
 
 .part3 {
@@ -228,40 +211,7 @@ nav {
     height: 200px;
     width: 200px;
 }
-.part4 .menu .four{
-    background-color: white;
-    display: flex;
-    float: right;
-    flex-direction: row;
-    padding: 1px;
-    height: 250px;
-    width: 350px;
-    margin: 10px;
-}
-
-.part4 .menu .five{
-    background-color: white;
-    display: flex;
-    float: right;
-    flex-direction: row;
-    padding: 1px;
-    height: 250px;
-    width: 350px;
-    margin: 10px;
-}
-
-.part4 .menu .six{
-    background-color: white;
-    display: flex;
-    float: right;
-    flex-direction: row;
-    padding: 1px;
-    height: 250px;
-    width: 350px;
-    margin: 10px;
-}
-
-.part4 .menu .seven{
+.four, .five, .six, .seven{
     background-color: white;
     display: flex;
     float: right;
